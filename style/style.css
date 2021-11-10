@@ -370,6 +370,7 @@ body {
     width: 100%;
     display: flex;
     min-height: 193px;
+    flex-shrink: 0;
 }
 
 .colls__item-img {
@@ -442,6 +443,9 @@ body {
 .colls__content {
     display: flex;
     justify-content: space-between;
+    overflow-x:scroll;
+    padding-bottom: 10px;
+    column-gap: 30px;
 }
 
 .series {
